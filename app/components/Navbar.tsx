@@ -45,11 +45,11 @@ const Navbar = () => {
         <div
           className={`md:flex items-center justify-center text-center space-x-4 hidden`}
         >
-          <Link href="/recipes">
+          {/* <Link href="/recipes">
             <div className="text-lg hover:text-green-300 cursor-pointer py-1">
               Recipes
             </div>
-          </Link>
+          </Link> */}
           <Link href="/about">
             <div className="text-lg hover:text-green-300 cursor-pointer py-1">
               About

@@ -1,5 +1,5 @@
 import Image from "next/legacy/image";
-import rome from "../rome.jpg";
+import rome from "./rome.jpg";
 
 const About = () => {
   return (
