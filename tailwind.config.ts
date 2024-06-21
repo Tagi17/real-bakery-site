@@ -55,6 +55,7 @@ const config: Config = {
       minHeight: {
         '450': '450px',  // Now you can use class 'min-h-450'
       },
+    
     },
   },
   plugins: [],
