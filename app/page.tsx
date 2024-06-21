@@ -48,12 +48,12 @@ const Home = () => {
             Guava
           </div>
           <Link href="/order" passHref>
-            <button className="button-83 text-2xl pt-6">Buy Now</button>
+            <button className="button-83 text-2xl pt-7  ">Buy Now</button>
           </Link>
         </div>
       </div>
       <div className="  h-screen flex flex-col items-center justify-center p-5 text-center">
-        <div className="text-black text-4xl">Welcome to</div>
+        <div className="text-black text-4xl pt-22">Welcome to</div>
         <div className="text-black text-6xl p-5 text-center">
           Celestine Crunch
         </div>
@@ -66,7 +66,7 @@ const Home = () => {
           </div>
         </div>
         <Link href="/about" passHref>
-          <button className="button-83 text-2xl pt-6">Our Story</button>
+          <button className="button-83 text-2xl pt-6 pb-6">Our Story</button>
         </Link>
       </div>
     </div>
