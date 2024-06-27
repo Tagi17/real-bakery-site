@@ -101,3 +101,30 @@
   box-shadow: #fcf6e8 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
 
+.tiktoklogo {
+  font-size: 40px; /* Adjust the size as needed */
+  position: relative;
+  color: #00fff8; /* Cyan color */
+}
+.tiktoklogo .icon-overlay {
+  mix-blend-mode: multiply;
+  color: #ff0010; /* Red color */
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

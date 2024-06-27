@@ -32,7 +32,7 @@ const Order = () => {
           onTouchStart={() => handleTouch('item1')}
         >
           <div className="text-4xl mb-4 transition-colors duration-300 ease-in-out group-hover:text-gray-500">
-            Harmony Du Time Chocolate Chip Cookie
+            Harmonie Du Temp Chocolate Chip Cookie
           </div>
           <div className="text-xl transition-colors duration-300 ease-in-out group-hover:text-gray-500">
             This refined chocolate chip cookie is crafted with brown butter and
@@ -57,7 +57,7 @@ const Order = () => {
           <div className="text-4xl mb-4 transition-colors duration-300 ease-in-out group-hover:text-gray-500">
             Summer Delight Cookie Box
           </div>
-          <div className="text-xl transition-colors duration-300 ease-in-out group-hover:text-gray-500">
+          <div className="mb-20 text-xl transition-colors duration-300 ease-in-out group-hover:text-gray-500">
             Immerse yourself in the essence of summer with each bite from our
             limited-time cookie collection. These flavors are crafted to whisk
             you away to sun-kissed days and carefree moments:

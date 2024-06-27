@@ -20,7 +20,6 @@ const Navbar = () => {
 
   return (
     <div className="">
-      {/* Navigation bar */}
       <nav className="max-w-6xl mx-auto flex px-4 py-6 items-center justify-between">
         <div className="flex items-center w-full relative">
           {/* Hamburger button for mobile */}
@@ -37,7 +36,6 @@ const Navbar = () => {
 
           <div className="flex-1"></div>
 
-          {/* Centered navigation title */}
           <Link
             href="/"
             className="absolute left-1/2 transform -translate-x-1/2"
@@ -68,7 +66,7 @@ const Navbar = () => {
         </Link>
         <Link href="/contact">
           <div className="text-lg hover:text-[#827a7d] cursor-pointer py-1">
-            Contact Us
+            Contact 
           </div>
         </Link>
       </div>

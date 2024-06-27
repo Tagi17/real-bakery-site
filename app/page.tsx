@@ -61,7 +61,7 @@ const Home = () => {
         </div>
         <Link href="/about" passHref>
           <button className="button-83 text-xl md:text-2xl pt-6 b-6">
-            Our Story
+            My Story
           </button>
         </Link>
       </div>
