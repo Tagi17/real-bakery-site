@@ -18,6 +18,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+  
   return (
     <div className="">
       <nav className="max-w-6xl mx-auto flex px-4 py-6 items-center justify-between">
@@ -86,19 +90,19 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faTimes} />
           </button>
 
-          <div className="w-full max-w-md mx-auto">
+          <div className="w-full max-w-md mx-auto" onClick={closeMenu}>
             <Link href="/about">
-              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t">
+              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t" onClick={closeMenu}>
                 About
               </div>
             </Link>
             <Link href="/order">
-              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t">
+              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t" onClick={closeMenu}>
                 Order
               </div>
             </Link>
             <Link href="/contact">
-              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t">
+              <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t" onClick={closeMenu}>
                 Contact Us
               </div>
             </Link>
