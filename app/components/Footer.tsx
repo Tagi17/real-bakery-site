@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start text-center md:text-left mb-4 md:mb-0">
             {/* <h4 className="font-bold text-lg mb-2">Customer Service</h4> */}
             <h4 className="font-bold text-lg mb-2">
-              "Dedicated to providing the highest quality desserts"
+              &quot;Dedicated to providing the highest quality desserts&quot;
             </h4>
             <ul className="space-y-1">
               <li>
@@ -30,8 +30,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-              <Link href="/source" className="hover:underline">Sourcing</Link>
-            </li>
+                <Link href="/source" className="hover:underline">
+                  Sourcing
+                </Link>
+              </li>
             </ul>
           </div>
 
