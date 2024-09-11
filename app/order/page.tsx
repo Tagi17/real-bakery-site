@@ -1,6 +1,5 @@
 "use client";
 
-import GoogleMap from "../components/GoogleMap";
 import { useState } from "react";
 
 const Order = () => {
@@ -124,7 +123,7 @@ const Order = () => {
         </div>
       </div>
       <div>
-        {/* <GoogleMap/> */}
+      
       </div>
     </div>
   );
