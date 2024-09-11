@@ -1,6 +1,5 @@
 import "./globals.css";
 
-import { Calendar } from "@/components/ui/calendar";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import crunchnw from "./crunchnw.png";
