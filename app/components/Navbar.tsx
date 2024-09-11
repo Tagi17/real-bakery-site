@@ -63,11 +63,11 @@ const Navbar = () => {
             About
           </div>
         </Link>
-        <Link href="/order">
+        {/* <Link href="/order">
           <div className="text-lg hover:text-[#827a7d] cursor-pointer py-1">
             Order
           </div>
-        </Link>
+        </Link> */}
         <Link href="/contact">
           <div className="text-lg hover:text-[#827a7d] cursor-pointer py-1">
             Contact 
