@@ -32,7 +32,7 @@ const About = () => {
             allowing everyone to enjoy high-quality treats, because everyone
             deserves a little sweetness in life. */}
             The name &quot;losnazia&quot; reflects my personal touch and inspiration behind each creative dessert.
-            Combining 'los' with my name signifies my role in crafting unique, high-quality treats.
+            Combining &quot;losnazia&quot; with my name signifies my role in crafting unique, high-quality treats.
             losnazia embodies elegance, joy, and enchantment, ensuring everyone enjoys a little sweetness in life.
           </p>
           <div className="flex justify-center mb-10">

@@ -15,9 +15,9 @@ const Home = () => {
       </div>
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-gray-700 text-lg md:text-xl leading-relaxed pt-3">
-          I'm a private dessert chef offering custom, high-quality desserts for
+          I&apos;m a private dessert chef offering custom, high-quality desserts for
           coffee shops, restaurants, events, and businesses. I specialize in
-          creating desserts that complement your offerings, whether it's for a
+          creating desserts that complement your offerings, whether it&apos;s for a
           special event or as a permanent addition to your menu. My goal is to
           craft desserts that your customers will truly enjoy and remember.
         </div>
@@ -41,7 +41,7 @@ const Home = () => {
           </p>
         </div>
         <Link href="/about" passHref>
-          <button className="button-83 text-lg md:text-xl ">My Story</button>
+          <button className="button-83 text-lg md:text-xl">My Story</button>
         </Link>
       </div>
 
@@ -50,7 +50,7 @@ const Home = () => {
           Testimonials
         </div>
         <div className="text-gray-700 text-xl leading-relaxed">
-          "We are thrilled to feature losnazia's exceptional cookies at
+          "We are thrilled to feature losnazia&apos;s exceptional cookies at
           Fudgarten. Their dedication to quality and flavor excellence enhances
           our offerings and delights our customers."
           <span className="block mt-4 mb-2 text-gray-600">- Fudgarten</span>
