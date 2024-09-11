@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import { Calendar } from "@/components/ui/calendar";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import crunchnw from "./crunchnw.png";
@@ -8,62 +9,52 @@ import styles from "./components/Navbar.module.css";
 
 const Home = () => {
   return (
-    <div>
-      <div className="bg-[#fcf6e8] h-auto md:h-custom-height flex flex-col md:flex-row items-center justify-center relative p-4">
-        <h1 className="text-black text-5xl text-center mb-4 md:mb-0 md:absolute md:top-1/4 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 z-10">
-          Taste the Exceptional — Indulge in Our Unique Handcrafted Pastries!
-        </h1>
-        <div className="flex justify-center mt-8 md:mt-0">
-          <Image
-            src={crunchnw}
-            alt="cookie"
-            width={400}
-            height={400}
-            className="md:relative z-0"
-          />
+    <div className="bg-cream text-center p-8">
+      <div className="text-gray-800 text-3xl md:text-4xl font-semibold pt-12 pb-5">
+        Artisanal Desserts Crafted for Every Occassion
+      </div>
+      <div className="max-w-4xl mx-auto px-6">
+        <div className="text-gray-700 text-lg md:text-xl leading-relaxed pt-3">
+          I'm a private dessert chef offering custom, high-quality desserts for
+          coffee shops, restaurants, events, and businesses. I specialize in
+          creating desserts that complement your offerings, whether it's for a
+          special event or as a permanent addition to your menu. My goal is to
+          craft desserts that your customers will truly enjoy and remember.
+        </div>
+        <div className="text-2xl md:text-3xl text-primary mt-4">
+          Get in Touch:{" "}
+          <a href="mailto:losnazia@gmail.com">losnazia@gmail.com</a>
         </div>
       </div>
-      <div className="">
-        <div className="max-w-7xl mx-auto px-5 flex flex-col items-center">
-          <div className="text-black text-4xl md:text-5xl text-center mb-4">
-            Limited Edition Summer Cookies
-          </div>
-          <div className="text-black text-2xl md:text-3xl text-center py-5">
-            Enjoy These Seasonal Summer Time Flavors:
-          </div>
-          <div className="text-black text-3xl md:text-4xl text-center pt-4 pb-5 mb-5">
-            PassionFruit Vanilla, Almond Peach Crumble, Rose Raspberry, Coconut
-            Guava
-          </div>
-          <div className="flex justify-center mb-20">
-            <Link href="/order" passHref>
-              <button className="button-83 text-xl md:text-2xl pt-7 py-3 px-6 rounded-full shadow-lg hover:bg-yellow-500 transition-all">
-                Buy Now
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className=" h-screen flex flex-col items-center justify-center p-5 text-center">
-        <div className="text-black text-3xl md:text-4xl pt-22 pb-2">
+
+      <div className="flex flex-col items-center py-16 text-center bg-light-peach">
+        <div className="text-gray-800 text-3xl md:text-4xl font-semibold mb-3">
           Welcome to
         </div>
-        <div className="text-black text-5xl md:text-6xl p-5 text-center">
-          Celestine Crunch
-        </div>
-        <div className="max-w-7xl mx-auto px-5">
-          <div className="text-black text-3xl md:text-4xl py-5 mb-5 text-center">
-            Born from a profound passion for desserts, Celestine Crunch is
-            dedicated to offering unique and eclectic flavor combinations. We
-            strive to create delightful culinary experiences, inviting everyone
-            to explore the joy of our creations.
-          </div>
+        <div className="text-gray-600 text-3xl md:text-4xl mb-6">losnazia</div>
+        <div className="max-w-4xl mx-auto px-6">
+          <p className="text-gray-700 text-lg md:text-xl leading-relaxed mb-2">
+            Born from a profound passion for desserts, losnazia is dedicated to
+            offering unique and eclectic flavor combinations. I strive to create
+            delightful culinary experiences, inviting everyone to explore the
+            joy of my creations.
+          </p>
         </div>
         <Link href="/about" passHref>
-          <button className="button-83 text-xl md:text-2xl pt-6 b-6">
-            My Story
-          </button>
+          <button className="button-83 text-lg md:text-xl ">My Story</button>
         </Link>
+      </div>
+
+      <div className="max-w-4xl mx-auto px-6 py-19">
+        <div className="text-gray-800 text-3xl md:text-4xl text-center mb-7">
+          Testimonials
+        </div>
+        <div className="text-gray-700 text-xl leading-relaxed">
+          "We are thrilled to feature losnazia's exceptional cookies at
+          Fudgarten. Their dedication to quality and flavor excellence enhances
+          our offerings and delights our customers."
+          <span className="block mt-4 mb-2 text-gray-600">- Fudgarten</span>
+        </div>
       </div>
     </div>
   );

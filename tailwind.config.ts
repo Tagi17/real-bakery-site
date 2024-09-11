@@ -42,6 +42,8 @@ const config: Config = {
           400: '#ffedd2', // other one for home page
           500: '#faf1da', // very dark
           600: '#fcf7e8',
+          700: '#FCF2E4', //new color 
+          800: '#fcf8ea', // perfect
         },
         secondary: {
           100: '#d1e63e',

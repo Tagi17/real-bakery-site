@@ -45,7 +45,7 @@ const Navbar = () => {
             className="absolute left-1/2 transform -translate-x-1/2"
           >
             <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold cursor-pointer text-center tracking-widest custom-padding">
-              Celestine Crunch
+              losnazia
             </div>
           </Link>
 

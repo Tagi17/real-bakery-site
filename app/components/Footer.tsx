@@ -40,20 +40,20 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="flex justify-center items-center w-full mb-4 md:mb-0">
             <Image
-              src="/logo.png"
+              src="/nlogo.png"
               alt="Logo"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               className="mx-auto"
             />
           </div>
 
           {/* Social Media Links */}
           <div className="flex flex-col items-center text-center md:text-right">
-            <h4 className="font-bold text-lg mb-2">Follow Us</h4>
+            <h4 className="font-bold text-lg mb-2">Follow Me</h4>
             <div className="flex justify-center md:justify-center space-x-4">
               <a
-                href="https://www.instagram.com/celestinecrunch"
+                href="https://www.instagram.com/losnazia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-200 transition"
@@ -61,7 +61,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faInstagram} className="text-2xl" />
               </a>
               <a
-                href="https://www.tiktok.com/@celestinecrunch"
+                href="https://www.tiktok.com/@losnazia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center rounded-full bg-white text-black hover:bg-gray-200 transition"
@@ -73,9 +73,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-10 border-t border-gray-300 pt-5">
-          <p className="text-sm">
-            © 2024 Celestine Crunch. All rights reserved.
-          </p>
+          <p className="text-sm">© 2024 losnazia. All rights reserved.</p>
         </div>
       </footer>
     </div>

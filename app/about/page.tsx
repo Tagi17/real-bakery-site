@@ -24,13 +24,16 @@ const About = () => {
           </p>
           <hr className="my-6 border-t border-soft-pink" />
           <p className="text-3xl  mb-9 text-center leading-relaxed">
-            The inspiration behind the name &quot;Celestine Crunch&quot; stems
+            {/* The inspiration behind the name &quot;Celestine Crunch&quot; stems
             from my aspiration to create an experience of elegance and delight
             in every bite. me, food embodies the essence of joy and enchantment,
             and my goal is to infuse that sense of refinement into each of my
             desserts. I founded this company to share my desserts globally,
             allowing everyone to enjoy high-quality treats, because everyone
-            deserves a little sweetness in life.
+            deserves a little sweetness in life. */}
+            The name &quot;losnazia&quot; reflects my personal touch and inspiration behind each creative dessert.
+            Combining 'los' with my name signifies my role in crafting unique, high-quality treats.
+            losnazia embodies elegance, joy, and enchantment, ensuring everyone enjoys a little sweetness in life.
           </p>
           <div className="flex justify-center mb-10">
             <Image src={rome} width={400} height={300} alt="me" />
