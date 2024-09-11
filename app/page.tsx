@@ -50,9 +50,9 @@ const Home = () => {
           Testimonials
         </div>
         <div className="text-gray-700 text-xl leading-relaxed">
-          "We are thrilled to feature losnazia&apos;s exceptional cookies at
+        &quot;We are thrilled to feature losnazia&apos;s exceptional cookies at
           Fudgarten. Their dedication to quality and flavor excellence enhances
-          our offerings and delights our customers."
+          our offerings and delights our customers.&quot;
           <span className="block mt-4 mb-2 text-gray-600">- Fudgarten</span>
         </div>
       </div>

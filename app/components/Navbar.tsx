@@ -96,11 +96,11 @@ const Navbar = () => {
                 About
               </div>
             </Link>
-            <Link href="/order">
+            {/* <Link href="/order">
               <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t" onClick={closeMenu}>
                 Order
               </div>
-            </Link>
+            </Link> */}
             <Link href="/contact">
               <div className="text-3xl hover:text-[#827a7d] cursor-pointer py-9 border-t" onClick={closeMenu}>
                 Contact Us
