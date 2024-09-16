@@ -14,15 +14,22 @@ const Home = () => {
       </div>
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-gray-700 text-lg md:text-xl leading-relaxed pt-3">
-          I&apos;m a private dessert chef offering custom, high-quality desserts for
-          coffee shops, restaurants, events, and businesses. I specialize in
-          creating desserts that complement your offerings, whether it&apos;s for a
-          special event or as a permanent addition to your menu. My goal is to
-          craft desserts that your customers will truly enjoy and remember.
+          I&apos;m a private dessert chef offering custom, high-quality desserts
+          for coffee shops, restaurants, events, and businesses. I specialize in
+          creating desserts that complement your offerings, whether it&apos;s
+          for a special event or as a permanent addition to your menu. My goal
+          is to craft desserts that your customers will truly enjoy and
+          remember.
         </div>
         <div className="text-2xl md:text-3xl text-primary mt-4">
-          Get in Touch:{" "}
-          <a href="mailto:losnazia@gmail.com">losnazia@gmail.com</a>
+          <a
+            href="https://xwp9igsg572.typeform.com/to/zCfU4ywc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" underline"
+          >
+            Get in Touch
+          </a>
         </div>
       </div>
 
@@ -49,9 +56,9 @@ const Home = () => {
           Testimonials
         </div>
         <div className="text-gray-700 text-xl leading-relaxed">
-        &quot;We are thrilled to feature losnazia&apos;s exceptional cookies at
-          Fudgarten. Their dedication to quality and flavor excellence enhances
-          our offerings and delights our customers.&quot;
+          &quot;We are thrilled to feature losnazia&apos;s exceptional cookies
+          at Fudgarten. Their dedication to quality and flavor excellence
+          enhances our offerings and delights our customers.&quot;
           <span className="block mt-4 mb-2 text-gray-600">- Fudgarten</span>
         </div>
       </div>
